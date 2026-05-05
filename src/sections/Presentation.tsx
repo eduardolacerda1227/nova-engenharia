@@ -31,8 +31,8 @@ export function Presentation() {
           </div>
           <div className="flex-1 space-y-5 text-center lg:text-left">
             <h3 className="font-display text-2xl font-bold text-white">Paulo Roberto Bezerra</h3>
-            <p className="text-sm font-medium uppercase tracking-[0.2em] text-nova-gold">
-              Engenheiro civil · CREA ativo
+            <p className="text-sm font-medium uppercase tracking-[0.15em] text-nova-gold">
+              Engenheiro civil · Engenheiro de Segurança do Trabalho · CREA ativo
             </p>
             <p className="leading-relaxed text-neutral-400">
               Com mais de uma década de atuação em projetos estruturais e frentes de obra, combina
