@@ -51,7 +51,7 @@ export const projects: ProjectItem[] = [
     description:
       'Modelagem e acompanhamento de serviços de drenagem e pavimentação em vias urbanas.',
     imageSrc:
-      'https://images.unsplash.com/photo-1590644360187-1e4a2b3a1b0a?auto=format&fit=crop&w=800&q=75',
+      'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=800&q=75',
     imageWidth: 800,
     imageHeight: 533,
   },
