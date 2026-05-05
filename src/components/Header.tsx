@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { Menu, X } from 'lucide-react'
-import { Logo } from './Logo'
 import { scrollToSection } from '../lib/scrollToSection'
 
 const nav = [
@@ -36,17 +35,11 @@ export function Header() {
           : 'border-transparent bg-nova-950/70 backdrop-blur-sm'
       }`}
     >
-      <div className="mx-auto flex h-16 max-w-6xl items-center justify-between gap-4 px-4 sm:px-6 lg:px-8">
-        <button
-          type="button"
-          onClick={() => go('inicio')}
-          className="flex shrink-0 items-center rounded-md outline-none ring-nova-gold/40 focus-visible:ring-2"
-          aria-label="Ir para início"
+      <div className="relative mx-auto flex h-16 max-w-6xl items-center justify-end gap-4 px-4 sm:px-6 lg:px-8">
+        <nav
+          className="absolute left-1/2 top-1/2 hidden -translate-x-1/2 -translate-y-1/2 items-center gap-1 lg:flex"
+          aria-label="Principal"
         >
-          <Logo />
-        </button>
-
-        <nav className="hidden items-center gap-1 lg:flex" aria-label="Principal">
           {nav.map((item) => (
             <button
               key={item.id}

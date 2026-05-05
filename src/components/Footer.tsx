@@ -16,7 +16,7 @@ export function Footer() {
     <footer className="border-t border-nova-gold/20 bg-nova-900">
       <div className="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-3 lg:px-8">
         <div className="space-y-4">
-          <Logo className="brightness-110" />
+          <Logo className="h-10 w-auto object-contain brightness-110 md:h-12" />
           <p className="max-w-sm text-sm leading-relaxed text-neutral-400">
             Engenharia civil com foco em segurança, prazo e soluções sob medida para o seu
             projeto.

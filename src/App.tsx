@@ -1,6 +1,7 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async'
 import { Header } from './components/Header'
 import { Footer } from './components/Footer'
+import { WhatsAppFloat } from './components/WhatsAppFloat'
 import { Hero } from './sections/Hero'
 import { About } from './sections/About'
 import { Services } from './sections/Services'
@@ -31,6 +32,7 @@ function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppFloat />
     </HelmetProvider>
   )
 }
